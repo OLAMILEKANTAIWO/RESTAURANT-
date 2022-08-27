@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+
+}
+
+#top{
+background-image: url(./images/restaurant\ 1.png);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center;
+padding:4em;
+position: absolute;
+width: 1330px;
+height: 700px;
+border-radius: 18px;
+}
+#top h2 {
+    color: white;
+    padding-top:3em;
+    text-align: center;
+    font-size:4em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom:0.6em;
+    position:relative;
+}
+#top p{
+    font-size:25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+}
+#buttons{
+display:flex;
+justify-content: center;
+}
+
+#buttons button{
+    padding:2em;
+    margin:0.9em;
+    background-color: black;
+    border-radius:0.9em;
+    width:10%;
+}
+button a{
+    text-decoration: none;
+    font-style: none ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size:1.3em;
+}
+#mini-main{
+    background-color: bisque;
+}
+
+#menu{
+    display: flex;
+}
+#nav-bar{
+background-color: black;
+border:solid;
+border-radius:20px;
+
+}
+#nav-bar a{
+    display: block;
+    font-size:2.5em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    margin:0;
+    padding:1em;
+}
+#nav-bar span{
+    background-color: bisque;
+}
+#food ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#food img{
+    padding:0;
+    border-radius: 18px;
+    margin:0.8em;
+}
+#food li{
+    list-style-type: none;
+}
+#food h6{
+    text-align: center;
+    padding:0;
+    margin:0;
+    font-size:1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#food h2{
+    font-size:2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1.2em;
+    text-decoration: underline;
+    color:black;
+}
+
+#another{
+    display: flex;
+    justify-content: center;
+}
+
+#another button{
+    padding:0.8em;
+    margin:0.7em;
+    background-color: black;
+    color: white;
+    border-radius:0.65em;
+    font-size:1.3em;
+}
